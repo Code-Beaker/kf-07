@@ -23,6 +23,37 @@
   font-family: var(--ff-body);
 }
 
+.bump-home {
+  position: relative;
+}
+
+.bump-down {
+  position: relative;
+}
+
+.bump-down::after {
+  content: "";
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  left: 5%;
+  bottom: -5%;
+  background: var(--green-700);
+}
+
+.bump-home::before {
+  content: "";
+  position: absolute;
+  height: 75px;
+  width: 100%;
+  top: -10%;
+  clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
+  /* border-radius: 2rem 2rem 0 0; */
+  left: 0;
+  background: var(--white);
+}
+
 .nav {
   background: var(--white);
   padding: 1.5rem;
@@ -284,8 +315,8 @@ input,
 textarea {
   font-size: 1.125rem;
   /* border-radius: 0.25rem; */
-  border: none;
-  border-bottom: 2px solid var(--black);
+  /* border: none;
+  border-bottom: 2px solid var(--black); */
   width: 30rem;
   padding: 0.5rem 1.5rem;
   display: block;
