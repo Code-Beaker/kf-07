@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KF | Contact form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a class="nav-logo">KF</a>
+        <ul class="nav-links">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="hero">
+      <div class="hero-wrapper">
+        <h1 class="hero-title">Let's talk.</h1>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="content-grid-2">
+        <h1 class="contact-title">Contact us now.</h1>
+        <div
+          style="width: 2px; background: #000; height: 100%"
+          class="vbar"
+        ></div>
+        <form action="index.html">
+          <input type="text" placeholder="Enter your full name" />
+          <input type="email" placeholder="Enter your email" />
+          <textarea placeholder="Enter comments"></textarea>
+          <br />
+          <div
+            style="
+              display: flex;
+              flex-grow: 4;
+              justify-content: space-between;
+              width: 100%;
+            "
+          >
+            <label for="agree" style="flex-grow: 2"
+              >I want to recieve news and updates</label
+            >
+            <input style="display: inline-block" type="checkbox" id="agree" />
+          </div>
+          <br />
+          <button class="btn">Submit and Confirm</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-item">
+          <h3>Social Media</h3>
+          <ul class="footer-links">
+            <li><a class="footer-link" href="#">Facebook</a></li>
+            <li><a class="footer-link" href="#">Instagram</a></li>
+            <li><a class="footer-link" href="#">YouTube Channel</a></li>
+            <li><a class="footer-link" href="#">WhatsApp Group</a></li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <h3>Support and Contribute</h3>
+          <ul class="footer-links">
+            <li><a class="footer-link" href="#">Donation</a></li>
+            <li><a class="footer-link" href="#">Tag us</a></li>
+            <li><a class="footer-link" href="#">Join KF group</a></li>
+            <li><a class="footer-link" href="#">Other ways</a></li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <h3>Address</h3>
+          <p>2nd floor, Marina traders, Kochi Kerala.</p>
+        </div>
+      </div>
+      <p class="footer-main">&copy; 2023 KF. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
