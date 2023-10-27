@@ -135,20 +135,20 @@ footer {
   position: relative;
 }
 
-.footer-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 2rem;
-  /* border: 1px solid red; */
-}
-
 .footer-links {
+  display: flex;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
   list-style: none;
+  /* border: 1px solid red; */
 }
 
 .footer-link {
   text-decoration: none;
   color: var(--blue-400);
+  font-size: 1.25rem;
   display: inline-block;
   margin: 3px auto;
 }
