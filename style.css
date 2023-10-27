@@ -235,6 +235,7 @@ summary {
   border-radius: 0.5rem;
   overflow: hidden;
   background: black;
+  cursor: pointer;
   transition: var(--time);
 }
 
